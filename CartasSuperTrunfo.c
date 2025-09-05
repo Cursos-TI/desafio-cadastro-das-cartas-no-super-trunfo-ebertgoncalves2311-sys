@@ -30,6 +30,18 @@ scanf("%s",   codigocarta1);
 printf("Digite o nome da cidade: ");
 scanf("%s", nome_cidade1);
 
+printf("Digite a populacao:  ");
+scanf("%i",   &populacao1);
+
+printf("Digite a area(em Km²):  ");
+scanf("%f",   &area1);
+
+printf("Digite o pib:  ");
+scanf("%f",  &pib1);
+
+printf("Digite o número de pontos turisticos:  ");
+scanf("%i",   &pontos_turisticos1);
+
 }
 
  
