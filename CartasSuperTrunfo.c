@@ -19,7 +19,7 @@ float area2, pib2;
 
 //Cadastro de primeira carta
 
-printf("Cadastro de primeira carta:\n  ");
+printf("==Cadastro de primeira carta==\n  ");
 
 printf("Digite o estado(A-H): ");
 scanf("%s",  estado1);
@@ -41,6 +41,36 @@ scanf("%f",  &pib1);
 
 printf("Digite o número de pontos turisticos:  ");
 scanf("%i",   &pontos_turisticos1);
+
+//Cadastro segunda carta
+
+printf("==Cadastro da segunda carta carta==\n  ");
+
+printf("Digite o estado(A-H): ");
+scanf("%s",  estado2);
+
+printf("Digie o codigo da carta (ex A01): ");
+scanf("%s",   codigocarta2);
+
+printf("Digite o nome da cidade: ");
+scanf("%s", nome_cidade2);
+
+printf("Digite a populacao:  ");
+scanf("%i",   &populacao2);
+
+printf("Digite a area(em Km²):  ");
+scanf("%f",   &area2);
+
+printf("Digite o pib:  ");
+scanf("%f",  &pib2);
+
+printf("Digite o número de pontos turisticos:  ");
+scanf("%i",   &pontos_turisticos2);
+
+
+
+
+
 
 }
 
