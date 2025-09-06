@@ -73,10 +73,10 @@ printf("== CARTA 1 ==\n");
 printf("Estado: %s\n",  estado1);
 printf("Codigo: %s\n", codigocarta1);
 printf("Cidade: %s\n", nome_cidade1);
-printf("Populaçao: %d\n",  &populacao1);
-printf("Área: %f\n",  &area1);
-printf("Pib: %f\n",  &pib1);
-printf("Pontos turísticos: %d\n",  &pontos_turisticos1);
+printf("Populaçao: %d\n",  populacao1);
+printf("Área: %.f\n",  area1);
+printf("Pib: %.f\n",  pib1);
+printf("Pontos turísticos: %d\n",  pontos_turisticos1);
 
 //Exibindo informacoes da segunda carta
 
@@ -84,10 +84,13 @@ printf("== CARTA 2 ==\n");
 printf("Estado: %s\n",  estado2);
 printf("Codigo: %s\n", codigocarta2);
 printf("Cidade: %s\n", nome_cidade2);
-printf("Populaçao: %i\n",  &populacao2);
-printf("Área: %f\n",  &area2);
-printf("Pib: %f\n",  &pib2);
-printf("Pontos turísticos: %d\n",  &pontos_turisticos2);
+printf("Populaçao: %i\n",  populacao2);
+printf("Área: %.f\n",  area2);
+printf("Pib: %.f\n",  pib2);
+printf("Pontos turísticos: %d\n",  pontos_turisticos2);
+
+
+return 0;
 
 
 
