@@ -90,7 +90,7 @@ printf("Pib: %.f\n",  pib2);
 printf("Pontos turísticos: %d\n",  pontos_turisticos2);
 
 
-return 0;  //fim do programa 
+return 0;  //fim do programa
 
 
 
